@@ -6,6 +6,11 @@ Ce projet analyse les sentiments financiers concernant NVIDIA en utilisant FinBE
 
 Évaluer les sentiments (positif, neutre, négatif) des actualités et publications financières liées à NVIDIA et observer la corrélation avec l'évolution du cours de l'action.
 
+## Démo en ligne
+
+Accédez à la version déployée du dashboard ici :
+🔗 [nvidia-sentiment-analysiss.streamlit.app](https://nvidia-sentiment-analysiss.streamlit.app/)
+
 ## Structure du projet
 
 ```
@@ -58,3 +63,4 @@ streamlit run app.py
 - Matplotlib, Seaborn, Plotly
 - yfinance pour les données boursières
 - BeautifulSoup pour le web scraping
+

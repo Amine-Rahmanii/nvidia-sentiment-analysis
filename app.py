@@ -327,6 +327,9 @@ def main():
         "Built By Amine Rahmani using Streamlit, FinBERT, and yfinance. "
         f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
     )
+    st.markdown(
+        "🔗 **GitHub Repository**: [nvidia-sentiment-analysis](https://github.com/Amine-Rahmanii/nvidia-sentiment-analysis)"
+    )
 
 if __name__ == "__main__":
     main()
